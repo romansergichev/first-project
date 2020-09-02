@@ -1,8 +1,19 @@
+.page {
+    margin: 0;
+}
+
 .main {
+    display: flex;
+    background-color: palevioletred;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main__text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 34px;
-    background-color: aquamarine;
+    font-size: 56px;
+    font-weight: 900;
+    text-transform: capitalize;
     color: white;
-    width: 350px;
-    height: 150px;
+    margin: auto;
 }
